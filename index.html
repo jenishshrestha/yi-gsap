@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" id="main-css" href="css/main.css" media="all" />
+  <script src="js/jquery-3.6.4.min.js" id="jquery-core-js"></script>
+  <body>
+    <div id="content-scroll">
+      <section id="plane" class="fixed-container">
+        <div class="mask-container">
+          <div class="container">
+            <div class="paper-plane mask">
+              <video class="" loop muted autoplay>
+                <source src="wl.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="heading" class="page-title">
+        <div class="container">
+          <h1>We’re creating impact ...</h1>
+          <p>... by digitizing and institutionalizing solutions</p>
+        </div>
+      </section>
+
+      <section id="project-planner">
+        <div class="container">
+          <div class="project-grid">
+            <div class="work" style="opacity: 0; transform: translateY(20px)">
+              See our work
+            </div>
+            <div class="project" style="opacity: 0">Start a project</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/smooth-scrollbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="js/main.js" id="main-js"></script>
+  </body>
+</html>
