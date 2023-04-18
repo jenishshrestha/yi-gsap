@@ -12,7 +12,7 @@ jQuery(function ($) {
         end: `bottom+=${vHeight - 10}`,
         toggleActions: "play pause resume reverse",
         // onEnter onLeave onEnterBack onLeaveBack
-        // markers: true,
+        markers: true,
         // scrub: true,
         // pin: true,
       },
