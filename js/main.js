@@ -9,12 +9,12 @@ jQuery(function ($) {
       scrollTrigger: {
         trigger: "#heading",
         start: "bottom",
-        end: `bottom+=${vHeight}`,
+        end: `bottom+=${vHeight - 10}`,
         toggleActions: "play pause resume reverse",
-        //onEnter onLeave onEnterBack onLeaveBack
+        // onEnter onLeave onEnterBack onLeaveBack
         // markers: true,
-        //   scrub: true,
-        //   pin: true,
+        // scrub: true,
+        // pin: true,
       },
     })
     .to(".paper-plane", {
